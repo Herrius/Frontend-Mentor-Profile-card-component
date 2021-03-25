@@ -4,6 +4,10 @@ body{
 .container{
     min-height: 100vh;
     background-color: #19A1AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .top-circle{
     position: absolute;
@@ -17,4 +21,13 @@ body{
 
     top: 50%;
     left: 50%;
+}
+.card{
+    background-color: #ffffff;
+    height: 23.4375rem;
+    width: 21.875rem;
+    position: relative;
+}
+.attribution{
+    margin-top: 25%;
 }
