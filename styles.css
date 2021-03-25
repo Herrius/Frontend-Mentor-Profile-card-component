@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+p{
+    margin: 0;
+}
 :root{
     --background:hsl(185, 75%, 39%);
     --title-color: hsl(229, 23%, 23%);
@@ -16,7 +19,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 
 }
 .top-circle{
@@ -50,15 +52,12 @@ body{
 }
 .card-item-profile{
     margin-top: -3rem;
-    margin-bottom: 1.625rem;
 }
 .card-item-img{
     border-radius: 50%;
     border: 0.25rem solid #ffffff;
 }
-.attribution{
-    margin-top: 25%;
-}
+/* texto de informacion */
 .text-title{
     position: relative;
     font-weight: 700;
@@ -68,10 +67,40 @@ body{
 .text-secondary{
     font-size: 0.875rem;
     text-align: center;
-    margin-top: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
 }
 .card-item{
     border-bottom:0.5px solid var(--text-color);
     width: 100%;
     text-align: center;
+    margin-top: 1rem;
 }
+
+/* colocar datos */
+.card-item-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+
+.text-data{
+    font-size: 0.5rem;
+    color: var(--text-color);
+    margin: 0; 
+}
+.format{
+    margin: 0;
+    padding: 0;
+}
+
