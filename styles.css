@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 :root{
     --background:hsl(185, 75%, 39%);
-    --text-color: hsl(229, 23%, 23%);
-    --title-color: hsl(227, 10%, 46%);
+    --title-color: hsl(229, 23%, 23%);
+    --text-color: hsl(227, 10%, 46%);
 }
 body{
     overflow: hidden;
     font-size: 1.125rem;
+    font-family: Kumbh Sans;
+    color: var(--text-color)
 }
 .container{
     min-height: 100vh;
@@ -35,7 +37,7 @@ body{
     height: 23.4375rem;
     width: 21.875rem;
     position: relative;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,11 +45,12 @@ body{
 .card-item-bg{
     width:21.875rem;
     height: 8.75rem;
-    border-radius: inherit;
+    border-radius: 1rem 1rem 0 0;
     background-image: url("images/bg-pattern-card.svg");
 }
 .card-item-profile{
     margin-top: -3rem;
+    margin-bottom: 1.625rem;
 }
 .card-item-img{
     border-radius: 50%;
@@ -58,4 +61,17 @@ body{
 }
 .text-title{
     position: relative;
+    font-weight: 700;
+    color: var(--title-color);
+    padding-right: 0.625rem;
+}
+.text-secondary{
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 1.75rem;
+}
+.card-item{
+    border-bottom:0.5px solid var(--text-color);
+    width: 100%;
+    text-align: center;
 }
