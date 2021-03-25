@@ -1,4 +1,20 @@
+body{
+    overflow: hidden;
+}
 .container{
     min-height: 100vh;
     background-color: #19A1AD;
+}
+.top-circle{
+    position: absolute;
+    /* width: 75%; */
+    bottom: 50%;
+    right: 55%;
+}
+.bottom-circle{
+    position: absolute;
+    /* width: 75%; */
+
+    top: 50%;
+    left: 50%;
 }
