@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+html,body{
+    min-height: 100vh;
+    overflow: hidden;
+}
 p{
     margin: 0;
 }
@@ -8,7 +12,7 @@ p{
     --text-color: hsl(227, 10%, 46%);
 }
 body{
-    overflow: hidden;
+
     font-size: 1.125rem;
     font-family: Kumbh Sans;
     color: var(--text-color)
@@ -21,19 +25,35 @@ body{
     justify-content: center;
 
 }
+/* colocacion de los circulos */
 .top-circle{
     position: absolute;
-    /* width: 75%; */
+    object-fit: cover;
     bottom: 50%;
     right: 55%;
 }
 .bottom-circle{
     position: absolute;
-    /* width: 75%; */
-
+    object-fit: cover;
     top: 50%;
     left: 50%;
 }
+.imagen-container{
+    overflow: hidden;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width:350px){
+    .top-circle{
+        right: 45%;
+    }
+    .bottom-circle{
+        left: 45%;
+    }
+}
+/* crear card id */
 .card{
     background-color: #ffffff;
     height: 23.4375rem;
