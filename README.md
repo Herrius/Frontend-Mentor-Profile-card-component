@@ -77,7 +77,7 @@ I practice my skills in CSS3 and Flexbox. Specially, It do the background becaus
 
 ## Author
 
-- Website - [Add your name here](https://herrius.github.io/PortafolioWeb/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Herrius)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Enrique Ubaldo](https://herrius.github.io/PortafolioWeb/)
+- Frontend Mentor - [@Herrius](https://www.frontendmentor.io/profile/Herrius)
+- Twitter - [@herrius_97](https://www.twitter.com/yourusername)
 
