@@ -62,9 +62,3 @@ I practice my skills in CSS3 and Flexbox. Specially, It do the background becaus
 }
 ```
 
-## Author
-
-- Website - [Enrique Ubaldo](https://herrius.github.io/PortafolioWeb/)
-- Frontend Mentor - [@Herrius](https://www.frontendmentor.io/profile/Herrius)
-- Twitter - [@herrius_97](https://www.twitter.com/yourusername)
-
